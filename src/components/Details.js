@@ -5,7 +5,7 @@ function Details() {
   return (
     <Container>
       <Background>
-        <img src="/images/cinema.jpg" />
+        <img src="/images/dethome.jpg" />
       </Background>
       <ImageTitle>
         <img src="/images/logo.svg" />
