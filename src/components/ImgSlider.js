@@ -35,43 +35,41 @@ function ImgSlider() {
 export default ImgSlider;
 
 const Carousel = styled(Slider)`
-margin-top: 20px;
+  margin-top: 20px;
 
-
-ul li button {
-  &:before {
-    font-size: 10px;
-    color: rgb(150, 158, 171);
+  ul li button {
+    &:before {
+      font-size: 10px;
+      color: rgb(150, 158, 171);
+    }
   }
-}
 
-li.slick-active button:before {
-  color: white;
-}
+  li.slick-active button:before {
+    color: white;
+  }
 
-button {
-  z-index: 1;
-}
+  button {
+    z-index: 1;
+  }
 
-.slick-list {
-  overflow: visible;
-}
-
+  .slick-list {
+    overflow: visible;
+  }
 `;
 
 const Wrap = styled.div`
-cursor: pointer;
-img {
-  border: 4px solid transparent;
-  border-radius: 4px;
-  width: 100%;
-  height: 100%;
-  box-shadow: rgb(0 0 0 / 69%) 0 26px 30px -10px, rgb(0 0 0 / 73%) 0 16px 10px -10px;
-  transition-duration: 300ms;
+  cursor: pointer;
+  img {
+    border: 4px solid transparent;
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    box-shadow: rgb(0 0 0 / 69%) 0 26px 30px -10px,
+      rgb(0 0 0 / 73%) 0 16px 10px -10px;
+    transition-duration: 300ms;
 
-  &:hover {
-    border: 4px solid rgba(249, 249, 249, 0.8);
+    &:hover {
+      border: 4px solid rgba(249, 249, 249, 0.8);
+    }
   }
-}
-
-`
+`;
